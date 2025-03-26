@@ -26,7 +26,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100;
+  height: 100vh;
 }
 
 body * {
@@ -152,7 +152,7 @@ footer {
   font-size: 20px;
 }
 
-@media (max-width: 160px) {
+@media (max-width: 450px) {
   :root {
     --bg-url: url(./assets/bg-mobile.jpg);
   }
